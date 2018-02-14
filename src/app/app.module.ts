@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DishdetailComponent
   ],
   imports: [
     BrowserModule
